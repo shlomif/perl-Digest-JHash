@@ -1,0 +1,18 @@
+--- #YAML:1.0
+name: Digest-JHash
+version: 0.05
+abstract: Perl extension for 32 bit Jenkins Hashing Algorithm
+license: artistic_2
+generated_by: ExtUtils::MakeMaker version 6.3201
+distribution_type: module
+requires:     
+  perl: 5.0
+provides:
+  Digest::JHash:
+    file: lib/Digest/JHash.pm
+    version: 0.05
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2
+author:
+  - Dr James Freeman

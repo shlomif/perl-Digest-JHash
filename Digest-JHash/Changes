@@ -1,0 +1,27 @@
+Revision history for Perl extension Digest::JHash.
+
+0.01  Sun Apr  6 19:10:33 2003
+    - original version; created by h2xs 1.21 with options
+        -An Digest::JHash
+
+0.02  Mon Apr 7 2003
+    - Changed untar dir structure to standard one
+    - Modified JHash.pm @EXPORT_OK so jhash() function can be exported on demand
+    - A small clean up to handle undef and null string input cases
+    - Added tests for the undef and null string input cases
+    - finished POD
+    - Added speed note to pod and demo script to misc/oo_vs_func.pl
+    - Added DEBUG const to C code for conveneience and to conform
+      with coding conventions of PHB
+    - Cleaned up Makefile.PL to minimal case
+
+0.03 Wed Jun 04 2008
+    - Repackaged into Kwalitee compliant package
+
+0.04 Wed Jun 04 2008
+    - Moved developer only tests kwalitee.t and spelling.t to misc/ to
+      stop kwalitee from demanding they be listed as build pre-reqs in META.yml
+
+0.05 Friday Jun 06 2008
+    - Patched to make algorithm compatible with unwanted 64 bit int in U32
+
