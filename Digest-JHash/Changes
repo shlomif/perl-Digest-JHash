@@ -25,3 +25,6 @@ Revision history for Perl extension Digest::JHash.
 0.05 Friday Jun 06 2008
     - Patched to make algorithm compatible with unwanted 64 bit int in U32
 
+0.06 Mon Jul 26 2010
+    - Reuploading to get rid of the world-writable files and directories
+    in the archive.
