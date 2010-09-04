@@ -4,7 +4,6 @@ JHash.xs
 Makefile.PL
 META.yml
 README
-SIGNATURE
 examples/jhash.pl
 examples/oo_vs_func.pl
 misc/kwalitee.t
