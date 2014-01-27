@@ -1,11 +1,15 @@
-MANIFEST
 Changes
 JHash.xs
-Makefile.PL
+LICENSE
+MANIFEST
 META.yml
+Makefile.PL
 README
 examples/jhash.pl
 examples/oo_vs_func.pl
+html/JHash.html
+html/docs.css
+lib/Digest/JHash.pm
 misc/kwalitee.t
 misc/make_manifest.pl
 misc/mkdist.bat
@@ -14,6 +18,3 @@ t/cpan-changes.t
 t/jhash.t
 t/pod.t
 t/pod_coverage.t
-lib/Digest/JHash.pm
-html/docs.css
-html/JHash.html

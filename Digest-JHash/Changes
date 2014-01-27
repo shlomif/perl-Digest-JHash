@@ -4,6 +4,7 @@ Revision history for Perl extension Digest::JHash.
     - Add a minimal version on perl-5.8.0.
         - For CPANTS Kwalitee.
     - Add t/cpan-changes.t
+    - Add a LICENSE file (for CPANTS Kwalitee).
 
 0.07    2010-09-04
     - Got rid of the SIGNATURE file which was out-of-date.
