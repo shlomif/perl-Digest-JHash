@@ -1,10 +1,29 @@
 Revision history for Perl extension Digest::JHash.
 
-0.01  Sun Apr  6 19:10:33 2003
-    - original version; created by h2xs 1.21 with options
-        -An Digest::JHash
+0.08    2014-01-27
+    - Add a minimal version on perl-5.8.0.
+        - For CPANTS Kwalitee.
+    - Add t/cpan-changes.t
 
-0.02  Mon Apr 7 2003
+0.07    2010-09-04
+    - Got rid of the SIGNATURE file which was out-of-date.
+        - https://rt.cpan.org/Ticket/Display.html?id=61053
+
+0.06    2010-07-26
+    - Reuploading to get rid of the world-writable files and directories
+    in the archive.
+
+0.05    2008-06-06
+    - Patched to make algorithm compatible with unwanted 64 bit int in U32
+
+0.04    2008-06-04
+    - Moved developer only tests kwalitee.t and spelling.t to misc/ to
+      stop kwalitee from demanding they be listed as build pre-reqs in META.yml
+
+0.03    2008-06-04
+    - Repackaged into Kwalitee compliant package
+
+0.02    2003-04-07
     - Changed untar dir structure to standard one
     - Modified JHash.pm @EXPORT_OK so jhash() function can be exported on demand
     - A small clean up to handle undef and null string input cases
@@ -15,26 +34,7 @@ Revision history for Perl extension Digest::JHash.
       with coding conventions of PHB
     - Cleaned up Makefile.PL to minimal case
 
-0.03 Wed Jun 04 2008
-    - Repackaged into Kwalitee compliant package
+0.01    2003-04-06
+    - original version; created by h2xs 1.21 with options
+        -An Digest::JHash
 
-0.04 Wed Jun 04 2008
-    - Moved developer only tests kwalitee.t and spelling.t to misc/ to
-      stop kwalitee from demanding they be listed as build pre-reqs in META.yml
-
-0.05 Friday Jun 06 2008
-    - Patched to make algorithm compatible with unwanted 64 bit int in U32
-
-0.06 Mon Jul 26 2010
-    - Reuploading to get rid of the world-writable files and directories
-    in the archive.
-
-0.07 Sat Sep 04 2010
-
-    - Got rid of the SIGNATURE file which was out-of-date.
-        - https://rt.cpan.org/Ticket/Display.html?id=61053
-
-0.08
-
-    - Add a minimal version on perl-5.8.0.
-        - For CPANTS Kwalitee.
