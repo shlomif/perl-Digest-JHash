@@ -8,6 +8,13 @@ WriteMakefile(
        AUTHOR         => 'Dr James Freeman') :
       ()
     ),
+    PREREQ_PM => {
+        'DynaLoader' => 0,
+        'Exporter' => 0,
+        perl => '5.008',
+        strict => 0,
+        warnings => 0,
+    },
     LICENSE           => 'artistic_2',
     realclean         => { FILES => 'Digest-JHash* *.tmp *.bak *.c' },
 );

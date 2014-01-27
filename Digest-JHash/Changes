@@ -33,3 +33,8 @@ Revision history for Perl extension Digest::JHash.
 
     - Got rid of the SIGNATURE file which was out-of-date.
         - https://rt.cpan.org/Ticket/Display.html?id=61053
+
+0.08
+
+    - Add a minimal version on perl-5.8.0.
+        - For CPANTS Kwalitee.
