@@ -1,5 +1,10 @@
 Revision history for Perl extension Digest::JHash.
 
+0.09    2015-05-30
+    - Convert to Dist-Zilla.
+        - This implies several enhancements including links to the VCS
+        repositories in META.yml/META.json.
+
 0.08    2014-01-27
     - Add a minimal version on perl-5.8.0.
         - For CPANTS Kwalitee.

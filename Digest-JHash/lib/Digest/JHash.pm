@@ -20,9 +20,6 @@ bootstrap Digest::JHash $VERSION;
 
 __END__
 
-=pod
-
-=for stopwords JHash burtleburtle bigpond Jenkins
 
 =head1 NAME
 
@@ -93,5 +90,7 @@ http://burtleburtle.net/bob/hash/doobs.html
 This package is free software and is provided "as is" without express or
 implied warranty. It may be used, redistributed and/or modified under the
 terms of the Artistic License 2.0. A copy is include in this distribution.
+
+=for stopwords JHash burtleburtle bigpond Jenkins
 
 =cut
