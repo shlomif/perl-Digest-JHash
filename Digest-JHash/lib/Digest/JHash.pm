@@ -12,7 +12,7 @@ use vars qw(@ISA @EXPORT_OK);
 @ISA = qw(Exporter DynaLoader);
 
 @EXPORT_OK = qw( jhash );
-our $VERSION   = '0.09';
+our $VERSION   = '0.10';
 
 bootstrap Digest::JHash $VERSION;
 
