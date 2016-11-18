@@ -7,12 +7,12 @@ require 5.008;
 
 require Exporter;
 require DynaLoader;
-use vars qw(@ISA @EXPORT_OK $VERSION);
+use vars qw(@ISA @EXPORT_OK);
 
 @ISA = qw(Exporter DynaLoader);
 
 @EXPORT_OK = qw( jhash );
-$VERSION   = '0.09';
+our $VERSION   = '0.09';
 
 bootstrap Digest::JHash $VERSION;
 
