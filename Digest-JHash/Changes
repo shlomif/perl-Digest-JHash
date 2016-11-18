@@ -4,6 +4,9 @@ Revision history for Perl extension Digest::JHash.
     - Avoid stray backup files.
         - https://rt.cpan.org/Ticket/Display.html?id=118830
         - Thanks to KENTNL.
+    - Avoid duplicate test files.
+        - https://rt.cpan.org/Ticket/Display.html?id=118830
+        - Thanks to KENTNL.
 
 0.09    2015-05-30
     - Convert to Dist-Zilla.
